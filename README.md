@@ -24,12 +24,12 @@ The following Packet Tracer (`.pkt`) files represent the labs completed so far:
 | **11** | Configuring Static Routes | Implementing recursive, next-hop, and directly attached static routes. |
 | **11** | Troubleshooting Static Routes | Identifying misconfigurations in routing tables and fixing reachability issues. |
 
-## 🛠️ Tools Used
+## Tools Used
 * **Cisco Packet Tracer:** For network simulation and configuration.
 * **Cisco IOS:** Practical experience with CLI commands.
 * **GitHub:** For version control and documentation of my learning journey.
 
-## 📝 How to Use This Repo
+## How to Use This Repo
 1.  Download and install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
 2.  Clone this repository: `git clone https://github.com/[YOUR-USERNAME]/CCNA-Labs.git`
 3.  Open any `.pkt` file to view the topology and completed configurations.
