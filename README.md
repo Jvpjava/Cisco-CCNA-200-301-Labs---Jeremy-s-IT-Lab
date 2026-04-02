@@ -2,6 +2,11 @@
 
 This repository contains my completed lab files and configurations for the **Jeremy's IT Lab CCNA 200-301** course. The goal of this project is to demonstrate hands-on proficiency with Cisco IOS, networking fundamentals, and routing/switching technologies.
 
+<h1 align="center">Cisco Labs</h1>
+<p align="center">
+  <img src="img/Cisco_Labs.png" alt="Cisco Labs Cover" width="100%">
+</p>
+
 ## Course Overview
 Jeremy's IT Lab is a comprehensive, free CCNA 200-301 course on YouTube. It includes:
 * **Video Lectures:** 60+ days of structured lessons.
