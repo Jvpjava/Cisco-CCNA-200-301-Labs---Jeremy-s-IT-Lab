@@ -19,7 +19,7 @@ The following Packet Tracer (`.pkt`) files represent the labs completed so far:
 
 | Day | Lab Title | Key Concepts Covered |
 | :--- | :--- | :--- |
-| **01** | Packet Tracer Introduction | Navigating the PT interface, adding devices, and basic cabling. |
+| **01** | [Packet Tracer Introduction | Navigating the PT interface, adding devices, and basic cabling.](https://github.com/Jvpjava/Cisco-CCNA-200-301-Labs---Jeremy-s-IT-Lab/blob/main/Labs/Day-01/Readme.md) |
 | **02** | Connecting Devices | Understanding cable types (Straight-through, Crossover) and console access. |
 | **03** | OSI Model | Visualizing data flow through layers and PDU encapsulation. |
 | **04** | Basic Device Security | Configuring hostnames, passwords (enable secret), and VTY line security. |
