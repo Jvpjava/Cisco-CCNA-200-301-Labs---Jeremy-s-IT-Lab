@@ -61,6 +61,11 @@ The topology is logically divided into three primary segments to simulate a real
 
 ## 🚀 Lab Implementation Steps
 
+<p align="center">
+  <img src="img/Screenshot 2026-04-03 154832.png" alt="Cisco Labs Cover" width="100%">
+</p>
+
+
 ### 1. Device Placement
 Selected specific hardware models from the **Network Devices** and **End Devices** menus to ensure alignment with CCNA curriculum standards.
 
