@@ -19,8 +19,6 @@
     </a>
 </h1>
 
----
-
 ## 📝 Overview
 This lab focuses on the initial setup and physical cabling of a multi-branch network using **Cisco Packet Tracer**. The objective is to recreate a complex architectural diagram consisting of a **New York Branch**, a **Tokyo Branch**, and a simulated **Internet (ISP)** core, incorporating security appliances and various end-host devices.
 
