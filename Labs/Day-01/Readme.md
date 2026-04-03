@@ -24,6 +24,12 @@ This lab focuses on the initial setup and physical cabling of a multi-branch net
 
 The topology is logically divided into three primary segments to simulate a real-world enterprise environment:
 
+<h1 align="center">Cisco Labs</h1>
+<p align="center">
+  <img src="img/Screenshot 2026-04-03 154313.png" alt="Cisco Labs Cover" width="100%">
+</p>
+
+
 ### 🏙️ New York Branch (Left)
 *   **End Devices:** 2 PCs (`PC1`, `PC2`)
 *   **Access Layer:** 1 Cisco Catalyst 2960 Switch (`SW1`)
