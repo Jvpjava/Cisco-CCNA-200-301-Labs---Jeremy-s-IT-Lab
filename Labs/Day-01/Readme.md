@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/Cisco_Labs.png" alt="Cisco Labs Cover" width="100%">
+  <img src="img/CiscoLabs.png" alt="Cisco Labs Cover" width="100%">
 </p>
 
 <div align="center">
