@@ -15,7 +15,7 @@
 
 <h1>
   <div>
-    <a href="https://www.youtube.com/watch?v=4ZOHfg9DB5w">
+    <a href="https://www.youtube.com/watch?v=4ZOHfg9DB5w" target="_blank">
       🖱️ Click Here For Video Solution
     </a>
   </div>
