@@ -1,0 +1,2788 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Rapid Spanning Tree Protocol (RSTP) \u2014",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          42.0,
+          81.7646484375
+        ],
+        [
+          480.50030517578125,
+          81.7646484375
+        ],
+        [
+          480.50030517578125,
+          105.9609375
+        ],
+        [
+          42.0,
+          105.9609375
+        ]
+      ]
+    },
+    {
+      "title": "Overview and Motivation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          41.23828125,
+          144.24609375
+        ],
+        [
+          270.8039855957031,
+          144.24609375
+        ],
+        [
+          270.8039855957031,
+          162.385986328125
+        ],
+        [
+          41.23828125,
+          162.385986328125
+        ]
+      ]
+    },
+    {
+      "title": "Cisco's Implementation: Rapid Per-VLAN Spanning Tree (Rapid PVST+)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          42.0,
+          300.00732421875
+        ],
+        [
+          440.40533447265625,
+          298.546875
+        ],
+        [
+          440.40533447265625,
+          312.00732421875
+        ],
+        [
+          40.939453125,
+          312.46875
+        ]
+      ]
+    },
+    {
+      "title": "Importance for the CCNA Exam",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          40.939453125,
+          374.73046875
+        ],
+        [
+          222.31619262695312,
+          373.18359375
+        ],
+        [
+          222.31619262695312,
+          387.00732421875
+        ],
+        [
+          40.939453125,
+          387.87890625
+        ]
+      ]
+    },
+    {
+      "title": "RSTP & STP Differences",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          42.0,
+          464.8359375
+        ],
+        [
+          218.72499084472656,
+          463.2890625
+        ],
+        [
+          218.72499084472656,
+          480.5716552734375
+        ],
+        [
+          42.0,
+          480.5716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Rapid Spanning Tree Protocol (RSTP) \u2014 Versions of\nSpanning Tree",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          41.23828125,
+          42.5390625
+        ],
+        [
+          502.68603515625,
+          42.5390625
+        ],
+        [
+          502.68603515625,
+          90.4921875
+        ],
+        [
+          41.23828125,
+          90.4921875
+        ]
+      ]
+    },
+    {
+      "title": "Overview of STP Versions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          41.8359375,
+          107.12109375
+        ],
+        [
+          186.86593627929688,
+          105.57421875
+        ],
+        [
+          186.86593627929688,
+          119.25732421875
+        ],
+        [
+          40.640625,
+          119.25732421875
+        ]
+      ]
+    },
+    {
+      "title": "802.1D \u2014 Classic Spanning Tree Protocol (STP)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          42.0,
+          309.375
+        ],
+        [
+          388.89007568359375,
+          307.828125
+        ],
+        [
+          388.89007568359375,
+          324.5716552734375
+        ],
+        [
+          41.8359375,
+          324.84375
+        ]
+      ]
+    },
+    {
+      "title": "PVST+ \u2014 Per-VLAN Spanning Tree Plus",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          42.0,
+          478.7578125
+        ],
+        [
+          335.21502685546875,
+          477.2109375
+        ],
+        [
+          335.21502685546875,
+          494.0716552734375
+        ],
+        [
+          41.23828125,
+          494.2265625
+        ]
+      ]
+    },
+    {
+      "title": "Why Rapid STP Was Needed",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          41.23828125,
+          41.37890625
+        ],
+        [
+          254.02499389648438,
+          41.37890625
+        ],
+        [
+          254.02499389648438,
+          56.8216552734375
+        ],
+        [
+          41.23828125,
+          56.8216552734375
+        ]
+      ]
+    },
+    {
+      "title": "802.1w \u2014 Rapid Spanning Tree Protocol (RSTP)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          41.23828125,
+          260.6484375
+        ],
+        [
+          393.9750671386719,
+          259.1015625
+        ],
+        [
+          393.9750671386719,
+          275.8216552734375
+        ],
+        [
+          41.23828125,
+          276.1171875
+        ]
+      ]
+    },
+    {
+      "title": "Rapid PVST+ \u2014 Rapid Per-VLAN Spanning Tree Plus",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          42.0,
+          410.8216552734375
+        ],
+        [
+          428.5750732421875,
+          409.921875
+        ],
+        [
+          428.5750732421875,
+          425.8216552734375
+        ],
+        [
+          41.537109375,
+          426.9375
+        ]
+      ]
+    },
+    {
+      "title": "802.1s \u2014 Multiple Spanning Tree Protocol (MSTP)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          42.0,
+          626.8216705322266
+        ],
+        [
+          412.8600769042969,
+          625.7109375
+        ],
+        [
+          412.8600769042969,
+          641.8216705322266
+        ],
+        [
+          41.23828125,
+          642.7265625
+        ]
+      ]
+    },
+    {
+      "title": "Summary: When to Use What",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          42.0,
+          301.3216552734375
+        ],
+        [
+          260.4849853515625,
+          300.09375
+        ],
+        [
+          260.4849853515625,
+          316.3216552734375
+        ],
+        [
+          40.939453125,
+          317.109375
+        ]
+      ]
+    },
+    {
+      "title": "Cisco's Summary of RSTP",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          41.8359375,
+          564.3860015869141
+        ],
+        [
+          270.552001953125,
+          563.8359375
+        ],
+        [
+          270.552001953125,
+          582.3984375
+        ],
+        [
+          40.640625,
+          583.9453125
+        ]
+      ]
+    },
+    {
+      "title": "Important Note on Terminology",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          42.0,
+          159.328125
+        ],
+        [
+          282.5,
+          159.328125
+        ],
+        [
+          282.5,
+          175.3216552734375
+        ],
+        [
+          40.939453125,
+          175.3216552734375
+        ]
+      ]
+    },
+    {
+      "title": "Similarities Between STP and RSTP",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          42.0,
+          282.3046875
+        ],
+        [
+          301.9850158691406,
+          280.7578125
+        ],
+        [
+          301.9850158691406,
+          297.5716552734375
+        ],
+        [
+          40.939453125,
+          297.5716552734375
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Differences \u2014 Port Costs, States, and Roles",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          42.0,
+          582.3860015869141
+        ],
+        [
+          477.75604248046875,
+          580.8515625
+        ],
+        [
+          477.75604248046875,
+          600.3860015869141
+        ],
+        [
+          41.23828125,
+          600.3860015869141
+        ]
+      ]
+    },
+    {
+      "title": "Updated Port Costs",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          41.8359375,
+          632.0716705322266
+        ],
+        [
+          187.49497985839844,
+          630.73828125
+        ],
+        [
+          187.49497985839844,
+          647.0716705322266
+        ],
+        [
+          41.8359375,
+          647.0716705322266
+        ]
+      ]
+    },
+    {
+      "title": "Simplified Port States",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          40.341796875,
+          319.3216552734375
+        ],
+        [
+          205.3300018310547,
+          317.8828125
+        ],
+        [
+          205.3300018310547,
+          334.3216552734375
+        ],
+        [
+          40.341796875,
+          334.8984375
+        ]
+      ]
+    },
+    {
+      "title": "Port Roles",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          42.0,
+          406.3216552734375
+        ],
+        [
+          120.63999938964844,
+          405.28125
+        ],
+        [
+          120.63999938964844,
+          421.3216552734375
+        ],
+        [
+          40.939453125,
+          421.3216552734375
+        ]
+      ]
+    },
+    {
+      "title": "Unchanged Roles",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          41.8359375,
+          464.8359375
+        ],
+        [
+          141.09193420410156,
+          463.2890625
+        ],
+        [
+          141.09193420410156,
+          478.7578125
+        ],
+        [
+          41.8359375,
+          480.3046875
+        ]
+      ]
+    },
+    {
+      "title": "Changed Role",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          41.23828125,
+          644.66015625
+        ],
+        [
+          122.02294921875,
+          644.66015625
+        ],
+        [
+          122.02294921875,
+          659.35546875
+        ],
+        [
+          41.23828125,
+          659.35546875
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Port Roles \u2014 Alternate and Backup Ports & STP\nFeatures",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          41.537109375,
+          71.635986328125
+        ],
+        [
+          516.2518920898438,
+          71.15625
+        ],
+        [
+          516.2518920898438,
+          118.135986328125
+        ],
+        [
+          41.537109375,
+          118.135986328125
+        ]
+      ]
+    },
+    {
+      "title": "Alternate Port Role",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          42.0,
+          150.5716552734375
+        ],
+        [
+          187.4350128173828,
+          150.046875
+        ],
+        [
+          187.4350128173828,
+          165.5716552734375
+        ],
+        [
+          41.23828125,
+          165.5716552734375
+        ]
+      ]
+    },
+    {
+      "title": "UplinkFast",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          41.8359375,
+          149.66015625
+        ],
+        [
+          122.30500030517578,
+          148.11328125
+        ],
+        [
+          122.30500030517578,
+          164.8216552734375
+        ],
+        [
+          41.8359375,
+          164.8216552734375
+        ]
+      ]
+    },
+    {
+      "title": "BackboneFast",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          42.0,
+          281.0716552734375
+        ],
+        [
+          146.04998779296875,
+          279.984375
+        ],
+        [
+          146.04998779296875,
+          296.0716552734375
+        ],
+        [
+          41.8359375,
+          296.0716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Summary: UplinkFast & BackboneFast",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          40.939453125,
+          40.9921875
+        ],
+        [
+          322.6000061035156,
+          40.9921875
+        ],
+        [
+          322.6000061035156,
+          56.8216552734375
+        ],
+        [
+          40.939453125,
+          56.8216552734375
+        ]
+      ]
+    },
+    {
+      "title": "Backup Port Role",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          41.537109375,
+          343.3216552734375
+        ],
+        [
+          172.02999877929688,
+          342.24609375
+        ],
+        [
+          172.02999877929688,
+          358.3216552734375
+        ],
+        [
+          41.537109375,
+          358.48828125
+        ]
+      ]
+    },
+    {
+      "title": "Topology for Backup Port Role:",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          40.640625,
+          448.98046875
+        ],
+        [
+          218.12042236328125,
+          447.43359375
+        ],
+        [
+          218.12042236328125,
+          462.75732421875
+        ],
+        [
+          40.640625,
+          463.67578125
+        ]
+      ]
+    },
+    {
+      "title": "How It Works",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          41.23828125,
+          41.8216552734375
+        ],
+        [
+          146.3199920654297,
+          41.8216552734375
+        ],
+        [
+          146.3199920654297,
+          56.8216552734375
+        ],
+        [
+          41.23828125,
+          56.8216552734375
+        ]
+      ]
+    },
+    {
+      "title": "Backup Port Function",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          42.0,
+          488.0390625
+        ],
+        [
+          203.6300048828125,
+          486.4921875
+        ],
+        [
+          203.6300048828125,
+          503.0716552734375
+        ],
+        [
+          42.0,
+          503.5078125
+        ]
+      ]
+    },
+    {
+      "title": "Designated vs. Backup Selection",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          41.537109375,
+          610.3216705322266
+        ],
+        [
+          282.93499755859375,
+          609.85546875
+        ],
+        [
+          282.93499755859375,
+          625.3216705322266
+        ],
+        [
+          41.537109375,
+          626.09765625
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Port Roles \u2014 Quiz Question",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          41.8359375,
+          45.7646484375
+        ],
+        [
+          439.49603271484375,
+          44.859375
+        ],
+        [
+          439.49603271484375,
+          69.7646484375
+        ],
+        [
+          41.8359375,
+          69.7646484375
+        ]
+      ]
+    },
+    {
+      "title": "Root Bridge",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          41.8359375,
+          718.3216705322266
+        ],
+        [
+          130.7849884033203,
+          718.3216705322266
+        ],
+        [
+          130.7849884033203,
+          733.60546875
+        ],
+        [
+          41.8359375,
+          733.60546875
+        ]
+      ]
+    },
+    {
+      "title": "SW1 (Root Bridge)",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          41.23828125,
+          102.48046875
+        ],
+        [
+          181.2449951171875,
+          102.48046875
+        ],
+        [
+          181.2449951171875,
+          117.5716552734375
+        ],
+        [
+          41.23828125,
+          117.5716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Root Ports",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          41.8359375,
+          177.5716552734375
+        ],
+        [
+          123.3550033569336,
+          176.73046875
+        ],
+        [
+          123.3550033569336,
+          192.5716552734375
+        ],
+        [
+          41.8359375,
+          192.5716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Designated Ports",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          42.0,
+          383.625
+        ],
+        [
+          171.2050018310547,
+          382.078125
+        ],
+        [
+          171.2050018310547,
+          398.8216552734375
+        ],
+        [
+          42.0,
+          399.09375
+        ]
+      ]
+    },
+    {
+      "title": "Backup Port",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          42.0,
+          506.0716552734375
+        ],
+        [
+          134.41000366210938,
+          504.66796875
+        ],
+        [
+          134.41000366210938,
+          521.0716552734375
+        ],
+        [
+          42.0,
+          521.0716552734375
+        ]
+      ]
+    },
+    {
+      "title": "Alternate Port",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          41.8359375,
+          599.4140625
+        ],
+        [
+          149.81500244140625,
+          597.8671875
+        ],
+        [
+          149.81500244140625,
+          614.8216705322266
+        ],
+        [
+          41.8359375,
+          614.8216705322266
+        ]
+      ]
+    },
+    {
+      "title": "RSTP \u2014 CLI Verification and Compatibility",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          42.0,
+          690.29296875
+        ],
+        [
+          416.56640625,
+          688.74609375
+        ],
+        [
+          415.5539855957031,
+          709.1360015869141
+        ],
+        [
+          41.23828125,
+          709.62890625
+        ]
+      ]
+    },
+    {
+      "title": "Verifying RSTP in the CLI",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          41.537109375,
+          41.8216552734375
+        ],
+        [
+          227.96998596191406,
+          40.9921875
+        ],
+        [
+          227.96998596191406,
+          56.8216552734375
+        ],
+        [
+          40.341796875,
+          56.8216552734375
+        ]
+      ]
+    },
+    {
+      "title": "CLI Output Notes",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          41.537109375,
+          41.8216552734375
+        ],
+        [
+          171.3699951171875,
+          40.9921875
+        ],
+        [
+          171.3699951171875,
+          56.8216552734375
+        ],
+        [
+          41.537109375,
+          56.8216552734375
+        ]
+      ]
+    },
+    {
+      "title": "RSTP and Classic STP Compatibility",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          42.0,
+          360.421875
+        ],
+        [
+          304.4000244140625,
+          358.875
+        ],
+        [
+          304.4000244140625,
+          375.5716552734375
+        ],
+        [
+          42.0,
+          375.890625
+        ]
+      ]
+    },
+    {
+      "title": "RSTP BPDU \u2014 Differences from Classic STP",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          41.8359375,
+          360.3860168457031
+        ],
+        [
+          428.82598876953125,
+          359.26171875
+        ],
+        [
+          428.82598876953125,
+          378.3860168457031
+        ],
+        [
+          40.640625,
+          378.3860168457031
+        ]
+      ]
+    },
+    {
+      "title": "Key Differences",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          40.939453125,
+          41.8216552734375
+        ],
+        [
+          160.59999084472656,
+          40.60546875
+        ],
+        [
+          160.59999084472656,
+          56.8216552734375
+        ],
+        [
+          39.744140625,
+          56.84765625
+        ]
+      ]
+    },
+    {
+      "title": "1. Protocol Version",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          42.0,
+          73.50732421875
+        ],
+        [
+          150.9102783203125,
+          72.31640625
+        ],
+        [
+          150.9102783203125,
+          85.50732421875
+        ],
+        [
+          41.23828125,
+          85.50732421875
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          41.8359375,
+          226.6171875
+        ],
+        [
+          218.7421875,
+          225.0703125
+        ],
+        [
+          218.7421875,
+          240.5390625
+        ],
+        [
+          41.8359375,
+          242.0859375
+        ]
+      ]
+    },
+    {
+      "title": "2. BPDU Type",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          40.640625,
+          356.94140625
+        ],
+        [
+          120.40941619873047,
+          355.39453125
+        ],
+        [
+          120.40941619873047,
+          369.75732421875
+        ],
+        [
+          40.640625,
+          370.08984375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          43.330078125,
+          384.01171875
+        ],
+        [
+          471.849609375,
+          382.46484375
+        ],
+        [
+          471.849609375,
+          460.58203125
+        ],
+        [
+          43.330078125,
+          462.12890625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          42.732421875,
+          510.08203125
+        ],
+        [
+          219.041015625,
+          508.53515625
+        ],
+        [
+          219.041015625,
+          523.23046875
+        ],
+        [
+          42.732421875,
+          524.77734375
+        ]
+      ]
+    },
+    {
+      "title": "3. BPDU Flags",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          40.939453125,
+          640.79296875
+        ],
+        [
+          120.12000274658203,
+          640.79296875
+        ],
+        [
+          120.12000274658203,
+          655.48828125
+        ],
+        [
+          40.939453125,
+          655.48828125
+        ]
+      ]
+    },
+    {
+      "title": "4. BPDU Origination",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          40.939453125,
+          327.75732421875
+        ],
+        [
+          158.30711364746094,
+          326.390625
+        ],
+        [
+          158.30711364746094,
+          339.75732421875
+        ],
+        [
+          40.939453125,
+          340.3125
+        ]
+      ]
+    },
+    {
+      "title": "RSTP BPDU Differences \u2014 BPDU Aging and Topology\nChanges",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          40.04296875,
+          462.3860168457031
+        ],
+        [
+          519.0420532226562,
+          462.3860168457031
+        ],
+        [
+          519.0420532226562,
+          510.08203125
+        ],
+        [
+          40.04296875,
+          511.62890625
+        ]
+      ]
+    },
+    {
+      "title": "All Switches Send Their Own BPDUs",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          41.8359375,
+          539.47265625
+        ],
+        [
+          307.80999755859375,
+          537.92578125
+        ],
+        [
+          307.80999755859375,
+          556.3216705322266
+        ],
+        [
+          40.640625,
+          556.3216705322266
+        ]
+      ]
+    },
+    {
+      "title": "Faster BPDU Aging",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          42.0,
+          616.3216705322266
+        ],
+        [
+          185.61001586914062,
+          614.8828125
+        ],
+        [
+          185.61001586914062,
+          631.3216705322266
+        ],
+        [
+          42.0,
+          631.8984375
+        ]
+      ]
+    },
+    {
+      "title": "MAC Address Flushing",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          41.537109375,
+          719.0716705322266
+        ],
+        [
+          207.9149932861328,
+          717.75
+        ],
+        [
+          207.9149932861328,
+          734.0716705322266
+        ],
+        [
+          41.537109375,
+          734.765625
+        ]
+      ]
+    },
+    {
+      "title": "Topology Change Example",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          42.0,
+          149.8216552734375
+        ],
+        [
+          241.0299835205078,
+          148.88671875
+        ],
+        [
+          241.0299835205078,
+          164.8216552734375
+        ],
+        [
+          40.939453125,
+          165.12890625
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Link Types",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          42.0,
+          656.2646789550781
+        ],
+        [
+          239.2480010986328,
+          656.2646789550781
+        ],
+        [
+          239.2480010986328,
+          680.2646713256836
+        ],
+        [
+          41.23828125,
+          681.3984375
+        ]
+      ]
+    },
+    {
+      "title": "Overview",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          41.8359375,
+          712.3359375
+        ],
+        [
+          111.72000122070312,
+          712.3359375
+        ],
+        [
+          111.72000122070312,
+          728.0716705322266
+        ],
+        [
+          41.8359375,
+          728.0716705322266
+        ]
+      ]
+    },
+    {
+      "title": "Edge Link Type",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          42.0,
+          122.0716552734375
+        ],
+        [
+          156.2050018310547,
+          122.0716552734375
+        ],
+        [
+          156.2050018310547,
+          137.28515625
+        ],
+        [
+          42.0,
+          137.28515625
+        ]
+      ]
+    },
+    {
+      "title": "Point-to-Point Link Type",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          41.23828125,
+          719.0716705322266
+        ],
+        [
+          224.53497314453125,
+          718.5234375
+        ],
+        [
+          224.53497314453125,
+          734.0716705322266
+        ],
+        [
+          41.23828125,
+          735.5390625
+        ]
+      ]
+    },
+    {
+      "title": "Shared Link Type",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          41.23828125,
+          500.0716552734375
+        ],
+        [
+          171.08499145507812,
+          498.8671875
+        ],
+        [
+          171.08499145507812,
+          515.0716552734375
+        ],
+        [
+          41.23828125,
+          515.8828125
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Summary \u2014 Quick Review",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          42.0,
+          378.984375
+        ],
+        [
+          424.2640075683594,
+          377.4375
+        ],
+        [
+          424.2640075683594,
+          403.5146789550781
+        ],
+        [
+          42.0,
+          403.734375
+        ]
+      ]
+    },
+    {
+      "title": "STP Versions",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          41.23828125,
+          441.6328125
+        ],
+        [
+          159.49798583984375,
+          440.0859375
+        ],
+        [
+          159.49798583984375,
+          460.1360168457031
+        ],
+        [
+          41.23828125,
+          460.1360168457031
+        ]
+      ]
+    },
+    {
+      "title": "Rapid STP Overview",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          42.0,
+          690.5716705322266
+        ],
+        [
+          194.7100067138672,
+          689.51953125
+        ],
+        [
+          194.7100067138672,
+          705.5716705322266
+        ],
+        [
+          42.0,
+          705.76171875
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Port States (3 total)",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          41.23828125,
+          130.32421875
+        ],
+        [
+          232.66497802734375,
+          130.32421875
+        ],
+        [
+          232.66497802734375,
+          146.0716552734375
+        ],
+        [
+          41.23828125,
+          146.0716552734375
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Port Roles (4 total)",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          41.8359375,
+          336.83203125
+        ],
+        [
+          227.864990234375,
+          335.28515625
+        ],
+        [
+          227.864990234375,
+          352.3216552734375
+        ],
+        [
+          41.8359375,
+          352.3216552734375
+        ]
+      ]
+    },
+    {
+      "title": "Classic STP Optional Features Built into RSTP",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          42.0,
+          575.0716705322266
+        ],
+        [
+          376.7900695800781,
+          573.890625
+        ],
+        [
+          376.7900695800781,
+          590.0716705322266
+        ],
+        [
+          40.939453125,
+          590.90625
+        ]
+      ]
+    },
+    {
+      "title": "RSTP BPDU Key Points",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          41.8359375,
+          725.8216705322266
+        ],
+        [
+          209.40000915527344,
+          724.7109375
+        ],
+        [
+          209.40000915527344,
+          740.8216705322266
+        ],
+        [
+          41.8359375,
+          741.7265625
+        ]
+      ]
+    },
+    {
+      "title": "RSTP Link Types",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          41.8359375,
+          131.0716552734375
+        ],
+        [
+          165.27999877929688,
+          131.0716552734375
+        ],
+        [
+          165.27999877929688,
+          146.0716552734375
+        ],
+        [
+          41.8359375,
+          146.0716552734375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          59
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          64
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableCell",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "TableCell",
+          51
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          14
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          30
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          52
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          61
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          31
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Code",
+          4
+        ],
+        [
+          "Text",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          54
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          22
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          46
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          52
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\22. Rapid Spanning Tree Study Guide - Studley AI"
+}
